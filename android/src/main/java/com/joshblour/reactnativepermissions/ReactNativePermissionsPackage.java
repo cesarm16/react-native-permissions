@@ -16,7 +16,7 @@ public class ReactNativePermissionsPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new ReactNativePermissionsModule(reactContext));
     }
 
-    @Override
+    
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
